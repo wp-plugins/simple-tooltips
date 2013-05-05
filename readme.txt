@@ -1,4 +1,4 @@
-=== Spacer ===
+=== Simple Tooltips ===
 Contributors: clevelandwebdeveloper
 Donate link: http://www.clevelandwebdeveloper.com/wordpress-plugins/donate.php
 Tags: tooltips, tips
