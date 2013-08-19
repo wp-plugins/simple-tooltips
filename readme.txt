@@ -3,7 +3,7 @@ Contributors: clevelandwebdeveloper
 Donate link: http://www.clevelandwebdeveloper.com/wordpress-plugins/donate.php
 Tags: tooltips, tips
 Requires at least: 2.9
-Tested up to: 3.5.1
+Tested up to: 3.6
 Stable tag: 1.0
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
