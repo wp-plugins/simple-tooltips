@@ -48,9 +48,25 @@ class simple_tooltips {
 		print 'Set the basic color settings for your tooltips';
     }
 	
+    public function get_donate_button(){ ?>
+	<style type="text/css">
+	.motechdonate{border: 1px solid #DADADA; background:white; font-family: tahoma,arial,helvetica,sans-serif;font-size: 12px;overflow: hidden;padding: 5px;position: absolute;right: 0;text-align: center;top: 0;width: 160px; box-shadow:0px 0px 8px rgba(153, 153, 153, 0.81);}
+	.motechdonate form{display:block;}
+	</style>
+    <div class="motechdonate">
+        <div style="overflow: hidden; width: 161px; text-align: center;">
+        <div style="overflow: hidden; width: 161px; text-align: center; float: left;"><form action="https://www.paypal.com/cgi-bin/webscr" method="post"><input name="cmd" value="_s-xclick" type="hidden"><input name="hosted_button_id" value="9TL57UDBAB7LU" type="hidden"><input alt="PayPal - The safer, easier way to pay online!" name="submit" src="https://www.paypal.com/en_US/i/btn/btn_donateCC_LG.gif" type="image"> <img src="https://www.paypal.com/en_US/i/scr/pixel.gif" alt="" border="0" height="1" width="1"></form></div>
+        If you enjoy or find any of my plugins useful, please donate a few dollars to my company The Motech Network to help with future development and updates. Thanks in advance.			</div>
+	</div>    
+    
+    <?php
+
+    }
+	
     public function create_admin_page(){
         ?>
-		<div class="wrap">
+		<div class="wrap" style="position:relative;">
+        	<?php $this->get_donate_button() ?>
 		    <?php screen_icon(); ?>
 		    <h2><?php echo $this->plugin_label ?></h2>			
 		    <form method="post" action="options.php">
