@@ -70,7 +70,22 @@ class simple_tooltips {
         <li>Donate a few dollars to my company The Motech Network to help with future development and updates.
         <form action="https://www.paypal.com/cgi-bin/webscr" method="post"><input name="cmd" value="_s-xclick" type="hidden"><input name="hosted_button_id" value="9TL57UDBAB7LU" type="hidden"><input alt="PayPal - The safer, easier way to pay online!" name="submit" src="https://www.paypal.com/en_US/i/btn/btn_donateCC_LG.gif" type="image"> <img src="https://www.paypal.com/en_US/i/scr/pixel.gif" alt="" border="0" height="1" width="1"></form>        
         </li>
-        <li>Follow me on <a href="https://twitter.com/ClevelandWebDev" target="_blank">Twitter</a></li>	
+        <li>Follow me on Twitter <a href="https://twitter.com/ClevelandWebDev" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @ClevelandWebDev</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script></li>
+
+        <li>Follow me on Google+<br />
+            <!-- Place this tag where you want the widget to render. -->
+            <div class="g-follow" data-annotation="none" data-height="24" data-href="//plus.google.com/111016169202309022990" data-rel="author"></div>
+            
+            <!-- Place this tag after the last widget tag. -->
+            <script type="text/javascript">
+              (function() {
+                var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+                po.src = 'https://apis.google.com/js/plusone.js';
+                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+              })();
+            </script>
+        </li>
          <li>Connect with me on <a href="http://www.linkedin.com/in/ClevelandWebDeveloper/" target="_blank">LinkedIn</a></li>
          <li><a href="http://wordpress.org/support/view/plugin-reviews/simple-tooltips" target="_blank" title="Rate it">Rate it</a> on WordPress.org</li>
          <li>Blog about it & link to the <a href="http://www.clevelandwebdeveloper.com/wordpress-plugins/simple-tooltips/" target="_blank">plugin page</a></li>
