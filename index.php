@@ -72,7 +72,7 @@ class simple_tooltips {
         </li>
         <li>Follow me on <a href="https://twitter.com/ClevelandWebDev" target="_blank">Twitter</a></li>	
          <li>Connect with me on <a href="http://www.linkedin.com/in/ClevelandWebDeveloper/" target="_blank">LinkedIn</a></li>
-         <li><a href="http://wordpress.org/support/view/plugin-reviews/simple-tooltips?filter=5" target="_blank" title="Rate it 5">Rate it 5</a> on WordPress.org</li>
+         <li><a href="http://wordpress.org/support/view/plugin-reviews/simple-tooltips" target="_blank" title="Rate it">Rate it</a> on WordPress.org</li>
          <li>Blog about it & link to the <a href="http://www.clevelandwebdeveloper.com/wordpress-plugins/simple-tooltips/" target="_blank">plugin page</a></li>
          <li>Check out my other <a href="http://www.clevelandwebdeveloper.com/wordpress-plugins/" target="_blank">WordPress plugins</a></li>
          <li><a href="mailto:info@clevelandwebdeveloper.com" target="_blank">Email me</a> to say thanks. If you can let me know where my plugins are being used 'in the wild' I always appreciate that.</li>
