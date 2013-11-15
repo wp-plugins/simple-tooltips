@@ -339,13 +339,12 @@ class simple_tooltips {
 						<?php
 						$pieces = explode(",", $selectors_field);
 						foreach($pieces as $piece) {
-							$selectors_string .= $piece . " .tooltips a,";
+							$selectors_string .= $piece . " .tooltips > a,";
 						}
 						$selectors_string = substr($selectors_string, 0, -1);
 						?>
 						jQuery('<?php echo $selectors_string ?>').each(function () {
-							title_val = jQuery(this).attr('title');
-							jQuery(this).removeAttr('title').closest('li').attr('title', title_val);
+							jQuery(this).addClass('tooltips').closest('li').removeClass('tooltips');
 						});
 					<?php endif ?>
 				
