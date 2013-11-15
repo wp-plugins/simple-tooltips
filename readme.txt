@@ -47,7 +47,6 @@ Settings > Simple Tooltips.
 
 
 = 1.1 =
-You now have the ability to:
 * Set max width for tooltip
 * Set tooltip opacity
 * Set tooltip position
