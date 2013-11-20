@@ -368,7 +368,7 @@ class simple_tooltips {
 						'color':				'<?php echo get_option('simple_tooltips_text_color', '#ffffff') ?>',
 						'max_width':  <?php echo get_option('simple_tooltips_max_width', 250) ?>,
 						'opacity':    <?php echo get_option('simple_tooltips_opacity', .95) ?>, 
-						'position':    '<?php echo get_option('simple_tooltips_position', 'center') ?>', 
+						'position':    '<?php echo get_option('simple_tooltips_position', 'center') ?>'
 					});
 				});
             </script>        
