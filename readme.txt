@@ -42,6 +42,7 @@ Settings > Simple Tooltips.
 1. Simple tooltip in action
 1. To set a tooltip: add class "tooltips" to html element, use title attribute for tooltip message.
 1. You can easily change tooltip color settings in Settings > Simple Tooltips
+1. Simple tooltip in action on a WordPress menu item
 
 == Changelog ==
 
