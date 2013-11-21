@@ -241,7 +241,7 @@ class simple_tooltips {
 		    $this->plugin_slug.'_setting_section',
 		    array(								// The array of arguments to pass to the callback.
 				"id" => $field_id, //sends field id to callback
-				"desc" => '<span style="width:340px;display:block;">This is for advanced users. If you want to use the tooltips on your WordPress menus, you can enable this by entering in the css selectors for your menus. For example, if your menu has the class "nav_menu", enter in ".nav_menu" to enable tooltips for all menus where class="nav_menu". You can enter multiple selectors in a comma seperated list. If you don\'t know what this means, or you don\'t want tooltips on your menus, just leave it empty.</span>', //description of the field (optional)
+				"desc" => '<span style="width:340px;display:block;">This is for advanced users. If you want to use the tooltips on your WordPress menus, you can enable this by entering in the css selectors for your menus. For example, if your menu has the class "nav_menu", enter in ".nav_menu" to enable tooltips for all menus where class="nav_menu". You can enter multiple selectors in a comma seperated list. If you don\'t know what this means, or you don\'t want tooltips on your menus, just leave it empty. <a href="http://www.clevelandwebdeveloper.com/wordpress-plugins/simple-tooltips/#tooltips_in_menu" target="_blank">Get Help &raquo;</a></span>', //description of the field (optional)
 				"default" => '', //sets the default field value (optional), when grabbing this option value later on remember to use get_option(option_name, default_value) so it will return default value if no value exists yet
 			)			
 		);
@@ -376,7 +376,7 @@ class simple_tooltips {
 	}
 	
 	public function plugin_row_links($links, $file) {
-		$plugin = plugin_basename(__FILE__); 
+		$plugin = plugin_basename(__FILE__);
 		if ($file == $plugin) // only for this plugin
 				return array_merge( $links,
 			array( '<a target="_blank" href="http://www.linkedin.com/in/ClevelandWebDeveloper/">' . __('Find me on LinkedIn' ) . '</a>' ),
